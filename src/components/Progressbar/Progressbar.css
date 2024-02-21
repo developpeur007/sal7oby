@@ -8,21 +8,20 @@
 }
 
 .skill-box .title{
-    position: absolute;
+    /* position: absolute; */
     display: block;
     font-size: 14px;
 }
 .skill-box .skill-bar{
     height: 8px;
-    width: 70%;
+    width: 100%;
     border-radius: 6px ;
     margin-top: 6px;
     background-color: #3C3C3B;
 }
-.skill-box .toolti{
-    position: relative;
-    left: 64%;
-    
+.top {
+    display: flex;
+    justify-content: space-between;
 }
 .skill-box .skill-per{
     position: relative;

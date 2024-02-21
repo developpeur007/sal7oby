@@ -10,11 +10,11 @@ function Contactme(props) {
       <Form  className=' p-3 text-white form ' netlify>
         <Form.Group className="mb-3 mt-4" controlId="exampleForm.ControlInput1">
           
-          <Form.Control type="email" placeholder="name@example.com" style={{ padding:'10px'}} className='email'/>
+          <Form.Control type="email" placeholder="name@example.com" style={{ padding:'10px',width:'100%'}} className='email'/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
           
-          <Form.Control type="email" placeholder="Your Names" style={{ padding:'10px'}} className='name' />
+          <Form.Control type="email" placeholder="Your Names" style={{ padding:'10px',width:'100%'}} className='name' />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1" >
           

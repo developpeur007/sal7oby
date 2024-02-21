@@ -6,16 +6,22 @@ import { Link as RouterLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useEffect } from 'react';
 
 const Header = () => {
-  var logo = logodark;
-    const selectedTheme = localStorage.getItem("selectedTheme")
-    if (selectedTheme === "dark") {
-      logo = logodark;
+    // var logo = logodark;
+    // let selectedTheme = window.localStorage.getItem("selectedTheme")
+    // console.log(selectedTheme)
+    // if (selectedTheme === "dark") {
+    //   logo = logodark;
       
-    }else{
-      logo = logolight;
-    }
+    // }else{
+    //   logo = logolight;
+    // }
+    useEffect(() => {
+
+      console.log(window.localStorage.getItem("selectedTheme"))
+    },[])
   
   
   
@@ -27,7 +33,7 @@ const Header = () => {
       <Container>
         
         <Navbar.Brand >
-        <RouterLink to='/'><img src={logo} alt='' style={{height: "50px", width:"auto"}}/></RouterLink>
+        <RouterLink to='/'><img src={window.localStorage.getItem("selectedTheme") === "dark" ? logodark : logolight} alt='' style={{height: "50px", width:"auto"}}/></RouterLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-dark'  id='navtog' />
             <Navbar.Collapse id="basic-navbar-nav">

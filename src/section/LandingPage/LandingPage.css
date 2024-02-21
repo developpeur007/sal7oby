@@ -1,19 +1,29 @@
 .landing-page{
     position: relative;
-    top: 10px;
+    /* top: 10px; */
+    display: flex;
+    /* align-items: center; */
     padding-bottom: 10px;
-    
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
+
+.content-text {
+    width: 50%;
+    margin-top: 100px;
+    /* justify-content: flex-start; */
+}
+
 .photo{
     
-    margin-left: 50%;
-    width: 440px;
+    /* margin-left: 50%; */
+    width: 300px;
    
 }
 
 .myname{
-    position: absolute;
-    top: 100px;
+    /* position: absolute;
+    top: 100px; */
     color: #F5CB5C;
     font-size: 50px;
     font-family: "Manjari", sans-serif;
@@ -25,8 +35,8 @@
     font-size: 25px;
 }
 .mytitle{
-    position: absolute;
-    top: 160px;
+    /* position: absolute;
+    top: 160px; */
     width: 30%;
     color: var(--secondarycolor);
     font-size: 15px;
@@ -40,11 +50,11 @@
 .btn{
     border: 1px solid;
     color: var(--secondarycolor);
-    position:  relative;
-    right: 84%;
-    bottom: 90px;
+    /* position:  relative; */
+    /* right: 84%; */
+    /* bottom: 90px; */
     padding: 10px;
-    width: 150px;
+    /* width: 150px; */
 }
 .btn:hover{
     border-color: #F5CB5C;
@@ -52,29 +62,29 @@
 
 }
 .line{
-    width: 3px;
-    height: 100px;
-    background-color: #F5CB5C;
-    position: relative;
-    left: 100%;
-    bottom:150px;
-}
-.line span{
-    color: var(--secondarycolor);
-    width: 100px;
     position: absolute;
-    top: 100px;
+    right: 2%;
+    bottom:0;
+    color: var(--secondarycolor);
+}
+.line span {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 5px;
+    height: 50px;
+    background-color: #F5CB5C;
 }
 @media only screen and (max-width: 767.5px) {
     .photo{
-        margin-left: 31%;
+        /* margin-left: 31%; */
         width: 190px;
-        margin-right: 10%;
+        /* margin-right: 10%; */
         
         overflow-y: hidden;
     }
     .myname{
-        position: absolute;
+        /* position: absolute; */
         top: 50px;
         
         color: #F5CB5C;
@@ -87,9 +97,9 @@
         font-size: 15px;
     }
     .mytitle{
-        position: absolute;
-        top: 77px;
-        width: 30%;
+        /* position: absolute; */
+        /* top: 77px;
+        width: 30%; */
         
         font-family: "Manjari", sans-serif;
         font-weight: 700;
@@ -100,19 +110,14 @@
     
     }
     .line{
-        width: 3px;
+        /* width: 3px;
         height: 50px;
         background-color: #F5CB5C;
         position: relative;
-        left: 70%;
-        bottom:30px;
+        right: 15%;
+        bottom:30px; */
     }
-    .line span{
-        color: var(--secondarycolor);
-        width: 100px;
-        position: absolute;
-        top: 45px;
-    }
+    
 
     }
 
@@ -120,13 +125,18 @@
       
     
 
-@media only screen and (width: 800px) {
-    .photo{
-        
-        margin-right: 900px;
+@media only screen and (max-width: 1015px) {
+    .landing-page {
+        flex-direction: column-reverse;
+        align-items: center;
         
     }
-
+    .content-text {
+        text-align: center;
+    }
+    .mytitle {
+        width: 100%;
+    }
     
       
     
