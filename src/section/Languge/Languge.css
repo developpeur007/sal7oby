@@ -1,0 +1,24 @@
+.container-lang{
+    height: 400px;;
+    width: 100%;
+    background-color: var(--box);
+    border-radius: 25px;
+    
+
+}
+
+.fly{
+    position: absolute;
+    left: 60%;
+    
+}
+@media only screen and (max-width: 600px) {
+    .fly{
+        left: 15%;
+
+    }
+
+    
+      
+    
+}

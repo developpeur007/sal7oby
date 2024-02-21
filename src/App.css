@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+
+:root{
+    --primarycolor: #242423;
+    --secondarycolor : #FFF;
+    --scondarycolor: #FFF;
+    --light: #FFF;
+    --box : #3C3C3B;
+    --Footer: #FFF;
+    --tran : #BBBBBB;
+    --hover : #F5CB5C;
+
+}

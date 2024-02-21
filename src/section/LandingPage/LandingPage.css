@@ -1,0 +1,134 @@
+.landing-page{
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+    
+}
+.photo{
+    
+    margin-left: 50%;
+    width: 440px;
+   
+}
+
+.myname{
+    position: absolute;
+    top: 100px;
+    color: #F5CB5C;
+    font-size: 50px;
+    font-family: "Manjari", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.sub{
+    color: var(--secondarycolor);
+    font-size: 25px;
+}
+.mytitle{
+    position: absolute;
+    top: 160px;
+    width: 30%;
+    color: var(--secondarycolor);
+    font-size: 15px;
+    font-family: "Manjari", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    
+
+}
+.btn{
+    border: 1px solid;
+    color: var(--secondarycolor);
+    position:  relative;
+    right: 84%;
+    bottom: 90px;
+    padding: 10px;
+    width: 150px;
+}
+.btn:hover{
+    border-color: #F5CB5C;
+    color: #F5CB5C;
+
+}
+.line{
+    width: 3px;
+    height: 100px;
+    background-color: #F5CB5C;
+    position: relative;
+    left: 100%;
+    bottom:150px;
+}
+.line span{
+    color: var(--secondarycolor);
+    width: 100px;
+    position: absolute;
+    top: 100px;
+}
+@media only screen and (max-width: 767.5px) {
+    .photo{
+        margin-left: 31%;
+        width: 190px;
+        margin-right: 10%;
+        
+        overflow-y: hidden;
+    }
+    .myname{
+        position: absolute;
+        top: 50px;
+        
+        color: #F5CB5C;
+        font-family: "Manjari", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+    }
+    .sub{
+        font-size: 15px;
+    }
+    .mytitle{
+        position: absolute;
+        top: 77px;
+        width: 30%;
+        
+        font-family: "Manjari", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 10px;
+        
+        
+    
+    }
+    .line{
+        width: 3px;
+        height: 50px;
+        background-color: #F5CB5C;
+        position: relative;
+        left: 70%;
+        bottom:30px;
+    }
+    .line span{
+        color: var(--secondarycolor);
+        width: 100px;
+        position: absolute;
+        top: 45px;
+    }
+
+    }
+
+    
+      
+    
+
+@media only screen and (width: 800px) {
+    .photo{
+        
+        margin-right: 900px;
+        
+    }
+
+    
+      
+    
+}
+

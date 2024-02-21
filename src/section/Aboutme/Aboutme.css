@@ -1,0 +1,34 @@
+.container-about{
+    color:  var(--secondarycolor);
+    font-family: "Manjari", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: -50px;
+}
+
+.line-about{
+    height: 3px;
+    width: 10%;
+    display: flex;
+    background-color: #F5CB5C;
+}
+.container-about p{
+    padding-left: 150px;
+    
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-about{
+        font-size: 10px;
+        
+        font-weight: 700;
+        font-style: normal;
+    }
+    .container-about p{
+        padding-left: 50px;
+        
+    }
+    
+    }
+

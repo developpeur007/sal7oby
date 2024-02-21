@@ -1,0 +1,17 @@
+.bal-navbar{
+    min-height: 100px;
+}
+a{
+    cursor: pointer;
+}
+
+.head-cl{
+    color: var(--scondarycolor);
+}
+.head-cl:hover {
+    color: var(--hover);
+}
+
+#navtog{
+    background-color: var(--box);
+}

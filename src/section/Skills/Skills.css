@@ -1,0 +1,59 @@
+
+.con{
+    color: var(--secondarycolor);
+    width: 30%;
+    text-align: center;
+}
+
+.container-skills{
+    width: 100%;
+    
+    display: flex;
+    margin-left: 100px;
+}
+.techskills{
+    width: 50%;
+    padding-bottom: 100px;
+    
+   
+}
+.framskills{
+    width: 50%;
+    padding-bottom: 100px;
+    
+   
+}
+.skills-title{
+    text-align: center;
+    width: 235%;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+
+    .container-skills{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 100px;
+        display: flex;
+        
+    }
+    .techskills{
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 10px;
+        
+       
+    }
+    .framskills{
+        width: 100%;
+        padding-bottom: 100px;
+        font-size: 10px;
+        
+       
+    }
+      
+    
+}

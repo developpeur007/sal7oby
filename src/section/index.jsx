@@ -1,0 +1,10 @@
+export {default as Contactme}  from './Contactme/Contactme'
+export {default as Header}  from './Header/Header'
+export {default as Footer}  from './Footer/Footer'
+export {default as Theme}  from './Theme/Theme'
+export {default as LandingPage}  from './LandingPage/LandingPage'
+export {default as Techskills}  from './Skills/Skills'
+// export {Frameskills}  from './Skills/Skills'
+
+export {default as Aboutme}  from './Aboutme/Aboutme'
+export {default as Languge}  from './Languge/Languge'

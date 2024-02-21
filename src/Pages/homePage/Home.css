@@ -1,0 +1,27 @@
+/* *{border:1px solid black;} */
+
+.skills-title{
+    color: var(--secondarycolor);
+    font-size: 30px;
+    
+}
+@media only screen and (max-width: 900px) {
+    .skills-title  {
+    
+        font-size: 20px;
+        margin-left:2%;
+        
+        
+      }
+      
+
+    
+      
+    
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+   
+}
